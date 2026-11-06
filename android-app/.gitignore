@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+# OJO: para la entrega académica el .jks y keystore.properties SÍ deben subirse (lo pide el enunciado).
+# En un proyecto real NUNCA se suben: descomenta estas líneas.
+# *.jks
+# keystore.properties

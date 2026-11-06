@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de la Activity (la apariencia real la define Compose en ui/theme) -->
+    <style name="Theme.Ariztia" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#9B0C23</item>
+        <item name="android:windowBackground">#FFF8F7</item>
+    </style>
+</resources>
