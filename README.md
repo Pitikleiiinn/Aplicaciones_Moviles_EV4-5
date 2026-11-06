@@ -4,9 +4,7 @@
 App móvil Android (Kotlin + Jetpack Compose + MVVM) con **4 microservicios** Spring Boot (Java 17 + JPA)
 y consumo de una **API externa** (Open-Meteo) vía Retrofit.
 
-## 1. Integrantes
-- _Nombre Apellido 1_ — _rol técnico_
-- _Nombre Apellido 2_ — _rol técnico_
+
 
 ## 2. Arquitectura
 ```
@@ -87,8 +85,7 @@ Resultado: `app/build/outputs/apk/release/app-release.apk`. Android Studio tambi
 Subir al repositorio el `.jks`, `keystore.properties` y el APK (lo exige el enunciado) y agregar aquí la captura.
 
 ## 8. Entrega y colaboración
-Dos repos públicos (app y microservicios) con commits de **ambos** integrantes, tablero Trello con tareas repartidas,
-y no tocar el repositorio después de la fecha límite.
+Dos repos públicos (app y microservicios) con commits de **ambos** integrantes, tablero Trello con tareas repartidas.
 =======
 # Aplicaciones_Moviles_EV4-5
 Proyecot pra la evaluacion con Andres Torres 
