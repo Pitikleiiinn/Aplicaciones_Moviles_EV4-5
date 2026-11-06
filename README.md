@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ariztia · Control de Temperatura de Bebederos (DSY1105)
 
 App móvil Android (Kotlin + Jetpack Compose + MVVM) con **4 microservicios** Spring Boot (Java 17 + JPA)
@@ -88,3 +89,7 @@ Subir al repositorio el `.jks`, `keystore.properties` y el APK (lo exige el enun
 ## 8. Entrega y colaboración
 Dos repos públicos (app y microservicios) con commits de **ambos** integrantes, tablero Trello con tareas repartidas,
 y no tocar el repositorio después de la fecha límite.
+=======
+# Aplicaciones_Moviles_EV4-5
+Proyecot pra la evaluacion con Andres Torres 
+>>>>>>> bfaebac287cdb9aa10dcb891986c143fc63f8326
