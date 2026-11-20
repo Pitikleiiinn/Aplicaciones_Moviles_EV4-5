@@ -8,7 +8,7 @@ import cl.ariztia.flushing.dto.FlushingRequest;
 import cl.ariztia.flushing.repository.FlushingRepository;
 import cl.ariztia.flushing.service.FlushingService;
 
-/** [DATOS DE PRUEBA] Dos flushing de ejemplo para que el historial no parta vacío. */
+/** Pruebas, Dos flushing de ejemplo para que el historial no parta vacío. */
 @Configuration
 public class DatosIniciales {
 

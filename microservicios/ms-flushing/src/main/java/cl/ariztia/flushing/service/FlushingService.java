@@ -12,7 +12,7 @@ import cl.ariztia.flushing.mapper.FlushingMapper;
 import cl.ariztia.flushing.model.Flushing;
 import cl.ariztia.flushing.repository.FlushingRepository;
 
-/** [SERVICIO] CRUD completo de registros de flushing. */
+/** SERVICIO CRUD completo de registros de flushing. */
 @Service
 public class FlushingService {
 

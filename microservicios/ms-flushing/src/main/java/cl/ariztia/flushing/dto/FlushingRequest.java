@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 /**
- * [DTO ENTRADA] Crear / corregir un flushing. Validaciones iguales a ValidadorFlushing de la app:
+ * DTO Entrada Crear / corregir un flushing. Validaciones iguales a ValidadorFlushing de la app:
  * responsable solo letras (mín. 3), motivo obligatorio, observaciones de 5 a 500 caracteres.
  * La fecha NO se envía: la asigna el servidor.
  */

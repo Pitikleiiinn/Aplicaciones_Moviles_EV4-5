@@ -11,7 +11,7 @@ import cl.ariztia.flushing.service.FlushingService;
 import jakarta.validation.Valid;
 
 /**
- * [CONTROLADOR REST] Flushing (puerto 8083)
+ * Conreolador Rest Flushing (puerto 8083)
  *   GET    /api/flushing        -> historial
  *   GET    /api/flushing/{id}   -> uno
  *   POST   /api/flushing        -> registrar

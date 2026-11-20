@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
 
-/** [ENTIDAD JPA] Registro de un flushing (purga de líneas). Mismos campos que FlusingEntity de la app. */
+/** ENTIDAD JPA Registro de un flushing (purga de líneas). Mismos campos que FlusingEntity de la app. */
 @Entity
 @Table(name = "registros_flushing")
 public class Flushing {
