@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
 
-/** [ENTIDAD JPA] Historial: cada medición registrada queda guardada aunque la línea se actualice después. */
+/** ENTIDAD JPA Historial: cada medición registrada queda guardada aunque la línea se actualice después. */
 @Entity
 @Table(name = "lecturas")
 public class Lectura {

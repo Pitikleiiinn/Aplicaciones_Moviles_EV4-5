@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.server.ResponseStatusException;
 
 /**
- * [MANEJO DE ERRORES] Convierte excepciones en respuestas JSON uniformes: {"error": "mensaje"}.
+ * MANEJO DE ERRORES Convierte excepciones en respuestas JSON uniformes: {"error": "mensaje"}.
  * La app Android lee el campo "error" y se lo muestra al usuario.
  */
 @RestControllerAdvice

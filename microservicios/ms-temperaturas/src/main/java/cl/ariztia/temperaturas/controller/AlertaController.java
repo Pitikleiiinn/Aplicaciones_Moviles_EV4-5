@@ -11,7 +11,7 @@ import cl.ariztia.temperaturas.dto.ResumenResponse;
 import cl.ariztia.temperaturas.service.LineaService;
 
 /**
- * [CONTROLADOR REST] Alertas y resumen (puerto 8082)
+ * CONTROLADOR REST Alertas y resumen (puerto 8082)
  *   GET /api/alertas  -> líneas en Advertencia o Crítico
  *   GET /api/resumen  -> métricas del supervisor (totales por estado)
  */

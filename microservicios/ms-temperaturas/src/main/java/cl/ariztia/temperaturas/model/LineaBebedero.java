@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import jakarta.persistence.*;
 
 /**
- * [ENTIDAD JPA] Una línea de bebederos identificada por (granja, galpón, línea) con su ÚLTIMA temperatura.
+ * ENTIDAD JPA Una línea de bebederos identificada por (granja, galpón, línea) con su ÚLTIMA temperatura.
  * La combinación es única: registrar una temperatura para una línea existente la actualiza (upsert).
  */
 @Entity

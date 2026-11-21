@@ -5,7 +5,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * [CONFIG] CORS abierto para desarrollo (permite probar la API desde un navegador).
+ * CONFIG CORS abierto para desarrollo (permite probar la API desde un navegador).
  * La app Android no lo necesita, pero no molesta. En producción se debe restringir.
  */
 @Configuration

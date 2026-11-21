@@ -12,7 +12,7 @@ import cl.ariztia.temperaturas.service.LineaService;
 import jakarta.validation.Valid;
 
 /**
- * [CONTROLADOR REST] Líneas de bebederos (puerto 8082)
+ * CONTROLADOR REST Líneas de bebederos (puerto 8082)
  *   GET    /api/lineas                  -> todas las líneas con su última temperatura
  *   GET    /api/lineas/{id}             -> una línea
  *   POST   /api/lineas/temperatura      -> registrar temperatura (crea o actualiza la línea)

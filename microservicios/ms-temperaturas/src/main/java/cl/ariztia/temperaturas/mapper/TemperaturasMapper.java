@@ -9,7 +9,7 @@ import cl.ariztia.temperaturas.model.EstadoLinea;
 import cl.ariztia.temperaturas.model.Lectura;
 import cl.ariztia.temperaturas.model.LineaBebedero;
 
-/** [MAPPER] Entidad -> DTO. Las fechas salen como texto "dd/MM/yyyy HH:mm", igual que en la app. */
+/** MAPPER Entidad -> DTO. Las fechas salen como texto "dd/MM/yyyy HH:mm", igual que en la app. */
 public final class TemperaturasMapper {
     private static final DateTimeFormatter FORMATO = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
