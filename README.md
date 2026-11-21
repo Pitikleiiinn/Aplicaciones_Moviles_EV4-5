@@ -180,3 +180,44 @@ cp keystore.properties.example keystore.properties   # completar contraseñas
 ./gradlew assembleRelease
 ```
 El APK queda en `app/build/outputs/apk/release/`. Sube al repositorio el `.jks`, `keystore.properties` y el APK, y agrega aquí la captura.
+
+
+## cmd 
+
+1. Usa el Java que trae Android Studio (no tienes JDK aparte):
+
+powershell
+$env:JAVA_HOME = "C:\Program Files\Android\Android Studio\jbr"
+$env:Path = "$env:JAVA_HOME\bin;$env:Path"
+java -version
+
+Debe mostrar la versión 17 o 21. Las dos sirven. Si dice que la ruta no existe, avísame: Android Studio puede estar instalado en otra carpeta.
+
+2. Descarga Maven portátil y descomprímelo:
+
+powershell
+cd $HOME
+Invoke-WebRequest https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip -OutFile maven.zip
+Expand-Archive maven.zip -DestinationPath $HOME\maven
+$env:Path = "$HOME\maven\apache-maven-3.9.9\bin;$env:Path"
+mvn -v
+
+Cuando vuelva el cursor, pega esto (descomprime Maven y lo activa):
+
+powershell
+Expand-Archive maven.zip -DestinationPath $HOME\maven
+$env:Path = "$HOME\maven\apache-maven-3.9.9\bin;$env:Path"
+mvn -v
+
+Si mvn -v muestra la versión de Maven, ya quedó.
+
+Luego arranca el primer servicio:
+
+powershell
+cd C:\Users\MP-Alumno\StudioProjects\Aplicaciones_Moviles_EV4-5\microservicios\ms-usuarios
+mvn spring-boot:run
+
+## Comprueba que respondan en el navegador:
+http://localhost:8082/api/lineas (3 líneas)
+http://localhost:8083/api/flushing (2 registros)
+http://localhost:8084/api/usuarios (2 usuarios)
